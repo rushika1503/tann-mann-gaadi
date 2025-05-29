@@ -1,12 +1,30 @@
-# React + Vite
+<img width="935" alt="image" src="https://github.com/user-attachments/assets/41f5c056-482b-4e2a-9f44-a7f8e301c922" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Thank You Page – Tann Mann Foundation Volunteer Task
 
-Currently, two official plugins are available:
+This is a simple "Thank You" page built using **React** and **Vite** as part of the volunteer application for the **Senior Angular Developer (Frontend)** role at The Tann Mann Foundation.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ 🌟 Project Purpose
 
-## Expanding the ESLint configuration
+The page acknowledges user submissions and includes:
+- A blurred background featuring the Tann Mann logo
+- A centered, responsive thank-you message
+- A brief personal introduction
+- A portfolio link
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ 💻 Tech Stack
+
+- React (with JSX)
+- Vite
+- CSS (custom styling with overlay and blur effects)
+
+ 🚀 How to Run Locally
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/thank-you-page.git
+cd thank-you-page
+
+
+
