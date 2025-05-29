@@ -1,0 +1,58 @@
+/* Full container with background image */
+.thankyou-container {
+  background-image: url('https://media.licdn.com/dms/image/v2/C560BAQE-dFMgQiHEfQ/company-logo_200_200/company-logo_200_200/0/1630656769930/the_tann_mann_gaadi_logo?e=1753920000&v=beta&t=MDKyLmdTvFB5vX_BkcrvtFZ2d7o4dbcPgtTxwxd20BA');
+  overflow: hidden;
+  min-height: 100vh;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+
+}
+
+/* Blur overlay over the background */
+.background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(15px) brightness(0.5); /* heavy blur and darken */
+  background-color: rgba(0, 0, 0, 0.4); /* optional darker overlay */
+  z-index: 0;
+}
+
+/* Foreground content */
+.thankyou-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: #fff;
+  padding: 2rem;
+}
+
+.thankyou-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.thankyou-content p {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+.portfolio-link {
+  color: #00d5ff;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.portfolio-link:hover {
+  color: #00a8cc;
+}
+
+
+
+
+
